@@ -8,7 +8,7 @@
 # Compare given array with full_series
 
 def find_missing(array)
-    return 55 - (array.reduce(:+))
+    return 55 - (array.reduce(:+)) # Use 55 because is the sum of 1..10 numbers, the diff would be the missing number
 end
 
 

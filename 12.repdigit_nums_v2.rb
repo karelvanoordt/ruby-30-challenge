@@ -1,6 +1,6 @@
 # Given a number, validate if all of the digits are the same.
 
-def is_repetitive(number)
+def is_repetitive(number) # From last challenge
     array = number.to_s.split('').map(&:to_i)  #takes number, converts to string and splits in an array of strings.  
                                                     #then maps through each iteration and converts into integer
     count = array.count{ |number| number != array.first } == 0

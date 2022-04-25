@@ -1,6 +1,6 @@
 # GIven a number n, the factorial of n is the product of all integers less or equal to the number n
 
-def factorial_v1(number)
+def factorial_v1(number) # From last challenge
 
     result = number
 

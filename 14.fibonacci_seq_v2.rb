@@ -1,7 +1,7 @@
 # Get the sequence of fibonacci numbers up to n number 
 # Fibonacci sequence: 0 1 1 2 3 5 8 13 21 34 55 ... (sum of last 2 numbers)
 
-def fibonacci_seq(n)
+def fibonacci_seq(n) # From last challenge
     n1 = 0
     n2 = 1
     sequence = []
